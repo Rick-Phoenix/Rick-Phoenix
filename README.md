@@ -12,7 +12,7 @@ So I spent 1 month learning Go, and in that process, I created 2 libraries:
 - [querygen](https://github.com/Rick-Phoenix/querygen), which is a small helper library that generates most if not all of the boilerplate for making aggregated sqlite queries with sqlc.
 
 And then after that, I dived into Rust, and I have really fallen in love with it. 
-So after 1 month of learning it, I released my first crate with it: [protocheck](https://crates.io/crates/protocheck), a validation library that leverages protovalidate annotations to automatically generate validation logic in Rust. 
+So after 1 month of learning it, I released my first crate: [protocheck](https://crates.io/crates/protocheck), a validation library that leverages protovalidate annotations to automatically generate validation logic in Rust. 
 
 ## Projects and ideas for the near future
 - Porting protoschema-go to rust (yes, I dislike writing proto files that much)
