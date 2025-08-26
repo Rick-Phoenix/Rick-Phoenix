@@ -15,7 +15,8 @@ And then after that, I dived into Rust, and I have really fallen in love with it
 So after 1 month of learning it, I released my first crate: [protocheck](https://crates.io/crates/protocheck), a validation library that leverages protovalidate annotations to automatically generate validation logic in Rust. 
 
 ## Projects and ideas for the near future
-- Porting protoschema-go to rust (yes, I dislike writing proto files that much)
+- ~Porting protoschema-go to rust (yes, I dislike writing proto files that much)~  Done, that is now [protoschema](https://github.com/Rick-Phoenix/protoschema)
+- Including more common protobuf types in my [proto-types](https://crates.io/crates/proto-types) crate
 - Probably a few other libraries to make working with protobuf a smoother process
-- Refactor a library I wrote in Typescript for generating boilerplate for TS projects, potentially porting it to Go
+- Refactor a library I wrote in Typescript for generating boilerplate for TS projects, potentially porting it to Go or Rust
 - Diving back into Sveltekit (which is not my frontend framework of choice) and tauri to build a desktop app
