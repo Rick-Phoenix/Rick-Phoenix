@@ -1,25 +1,22 @@
 ## Hi there 👋
 
-My name is Ricky, and for most of my life, I thought I'd never be able to write any code at all. 
+My name is Rick, and I started my coding journey in 2024, after an ADHD diagnosis that has changed my life.
 
-Before my ADHD diagnosis in september of 2024, I had never written a single line of code in my life. After starting treatment, I have finally become able to do the thing that I love doing the most. 
+I started out as a Typescript developer, briefly explored the Go ecosystem and then fell in love with Rust, which has been my main language ever since.
 
-I started coding following the open source [Odin Project](https://www.theodinproject.com/support_us), and after 4 months, I released my first full-stack project, which is a proof-of-concept social network inspired by Reddit. 
+My main focus is on creating libraries and programs that bridge ecosystem gaps and aim to improve development experience, maintainability and safety.
 
-After spending some time working on some libraries in Typescript, I realized that I wanted to try out other languages for the backend, so I started exploring Go.
+The projects that I've worked on include:
 
-So I spent 1 month learning it, and in that process, I created 2 libraries:
-- [protoschema-go](https://github.com/Rick-Phoenix/protoschema-go), for generating protobuf files from declarative schemas written in go (with a plugin to generate ConnectRPC handlers using the same metadata extracted from those schemas).
-- [querygen](https://github.com/Rick-Phoenix/querygen), which is a small helper library that generates most if not all of the boilerplate for making aggregated sqlite queries with sqlc.
+- [sketch](https://github.com/Rick-Phoenix/sketch), a swiss-knife templating cli that can be used to reuse various kinds of templates and structures among different projects
+- [protocheck](https://github.com/Rick-Phoenix/protocheck), the first full protovalidate implementation in Rust, with full support for custom CEL-based rules and strenghtened compile-time checks for validation rules and expressions
+- [protoschema](https://github.com/Rick-Phoenix/protoschema), a library that uses declarative macros to generate protobuf files programmatically, using Rust code
+- [protoschema-go](https://github.com/Rick-Phoenix/protoschema-go), a library that generates protobuf files from Go code, with automatic consistency checks for sqlc database models
+- [diesel-enums](https://github.com/Rick-Phoenix/diesel-enums), a library that provides seamless mappings between Rust enums and custom postgres enums or simple fixed lookup tables, with automatically generated consistency tests
+- [querygen](https://github.com/Rick-Phoenix/querygen), a library that uses a simple schema to generate code for aggregated sqlite queries for sqlc
+- [clipboard-watcher](https://github.com/Rick-Phoenix/clipboard-watcher), a library for monitoring the activity of the system clipboard, with customizable, performance-oriented settings
+- [class-dict](https://github.com/Rick-Phoenix/class-dict), a small library to organize tailwind classes without losing your sanity
 
-And then after that, I dived into Rust, which I have really fallen in love with it. 
-So after 1 month of learning it, I released my first crate: [protocheck](https://crates.io/crates/protocheck), a validation library that leverages protovalidate annotations to automatically generate validation logic in Rust.
+What I am currently working on:
 
-I have also made [protoschema](https://github.com/Rick-Phoenix/protoschema), which re-implements the protoschema-go concepts in Rust, but with a much better result due to Rust's flexibility with macros. Go check that out if you work with protobuf!
-
-## Projects and ideas for the near future
-- ~Porting protoschema-go to rust (yes, I dislike writing proto files that much)~  Done, that is now [protoschema](https://github.com/Rick-Phoenix/protoschema)
-- ~Including more common protobuf types in my [proto-types](https://crates.io/crates/proto-types) crate~ Done, all types from google.rpc and google.type are now supported
-- Probably a few other libraries to make working with protobuf a smoother process
-- Refactor a library I wrote in Typescript for generating boilerplate for TS projects, potentially porting it to Go or Rust
-- Diving back into Sveltekit (which is not my frontend framework of choice) and tauri to build a desktop app
+- Refactoring protoschema to a much more comprehensive use case, that will make using protobuf in Rust feel (almost) as easy as using JSON
