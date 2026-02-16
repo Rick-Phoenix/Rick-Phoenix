@@ -20,6 +20,7 @@ The projects that I've worked on include:
 - [clipboard-watcher](https://github.com/Rick-Phoenix/clipboard-watcher), a library for monitoring the activity of the system clipboard, with customizable, performance-oriented settings
 - [class-dict](https://github.com/Rick-Phoenix/class-dict), a small library to organize tailwind classes without losing your sanity
 - [bool-enum](https://github.com/Rick-Phoenix/bool-enum), a crate to generate boolean-like enums in Rust that support all the bit operators (with an included trait for usage with generics)
+- [merge-it](https://github.com/Rick-Phoenix/merge-it), an improved version of the `merge` crate
 
 ## Support & Hiring
 
